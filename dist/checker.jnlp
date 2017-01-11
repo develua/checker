@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="checker.jnlp">
+  <information>
+    <title>checker</title>
+    <vendor>Игорь</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="checker.jar" size="1443487" download="eager" />
+    <jar href="lib\cdi-core-9.3.7.v20160115.jar" size="8701" download="eager" />
+    <jar href="lib\cdi-servlet-9.3.7.v20160115.jar" size="8721" download="eager" />
+    <jar href="lib\cdi-websocket-9.3.7.v20160115.jar" size="17930" download="eager" />
+    <jar href="lib\java-json.jar" size="84697" download="eager" />
+    <jar href="lib\javax-websocket-client-impl-9.3.7.v20160115.jar" size="157408" download="eager" />
+    <jar href="lib\javax-websocket-server-impl-9.3.7.v20160115.jar" size="35618" download="eager" />
+    <jar href="lib\javax.websocket-api-1.0.jar" size="36611" download="eager" />
+    <jar href="lib\jetty-alpn-server-9.3.7.v20160115.jar" size="7555" download="eager" />
+    <jar href="lib\jetty-annotations-9.3.7.v20160115.jar" size="80831" download="eager" />
+    <jar href="lib\jetty-client-9.3.7.v20160115.jar" size="253242" download="eager" />
+    <jar href="lib\jetty-continuation-9.3.7.v20160115.jar" size="15785" download="eager" />
+    <jar href="lib\jetty-deploy-9.3.7.v20160115.jar" size="50752" download="eager" />
+    <jar href="lib\jetty-gcloud-session-manager-9.3.7.v20160115.jar" size="28331" download="eager" />
+    <jar href="lib\jetty-http-9.3.7.v20160115.jar" size="136427" download="eager" />
+    <jar href="lib\jetty-infinispan-9.3.7.v20160115.jar" size="21899" download="eager" />
+    <jar href="lib\jetty-io-9.3.7.v20160115.jar" size="105276" download="eager" />
+    <jar href="lib\jetty-jaas-9.3.7.v20160115.jar" size="39415" download="eager" />
+    <jar href="lib\jetty-jaspi-9.3.7.v20160115.jar" size="37130" download="eager" />
+    <jar href="lib\jetty-jmx-9.3.7.v20160115.jar" size="21792" download="eager" />
+    <jar href="lib\jetty-jndi-9.3.7.v20160115.jar" size="40930" download="eager" />
+    <jar href="lib\jetty-nosql-9.3.7.v20160115.jar" size="27598" download="eager" />
+    <jar href="lib\jetty-plus-9.3.7.v20160115.jar" size="55329" download="eager" />
+    <jar href="lib\jetty-proxy-9.3.7.v20160115.jar" size="81111" download="eager" />
+    <jar href="lib\jetty-quickstart-9.3.7.v20160115.jar" size="29848" download="eager" />
+    <jar href="lib\jetty-rewrite-9.3.7.v20160115.jar" size="31652" download="eager" />
+    <jar href="lib\jetty-schemas-3.1.jar" size="188164" download="eager" />
+    <jar href="lib\jetty-security-9.3.7.v20160115.jar" size="94504" download="eager" />
+    <jar href="lib\jetty-server-9.3.7.v20160115.jar" size="483159" download="eager" />
+    <jar href="lib\jetty-servlet-9.3.7.v20160115.jar" size="113498" download="eager" />
+    <jar href="lib\jetty-servlets-9.3.7.v20160115.jar" size="85462" download="eager" />
+    <jar href="lib\jetty-util-9.3.7.v20160115.jar" size="416442" download="eager" />
+    <jar href="lib\jetty-webapp-9.3.7.v20160115.jar" size="111130" download="eager" />
+    <jar href="lib\jetty-xml-9.3.7.v20160115.jar" size="50313" download="eager" />
+    <jar href="lib\servlet-api-3.1.jar" size="95806" download="eager" />
+    <jar href="lib\websocket-api-9.3.7.v20160115.jar" size="45301" download="eager" />
+    <jar href="lib\websocket-client-9.3.7.v20160115.jar" size="35972" download="eager" />
+    <jar href="lib\websocket-common-9.3.7.v20160115.jar" size="188052" download="eager" />
+    <jar href="lib\websocket-server-9.3.7.v20160115.jar" size="27854" download="eager" />
+    <jar href="lib\websocket-servlet-9.3.7.v20160115.jar" size="18181" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="checker" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="checkers.Checkers"  name="checker" />
+  <update check="always"/>
+</jnlp>
